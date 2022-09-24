@@ -1,0 +1,195 @@
+*{
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+body{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 100;
+  scroll-behavior: smooth;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1px solid black;
+  position: sticky;
+}
+
+
+
+.long li {
+  float: left;
+}
+
+.long li a {
+  position: relative;
+  float: right;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 20px 9px;
+  text-decoration: none;
+  right: 0;
+  font-size: 15px;
+}
+
+.long li .logo{
+  display: block;
+  float: left;
+  color: #000000;
+  text-align: left;
+  padding: 18px 16px;
+}
+
+.linkList{
+  position: absolute;
+  right: 12px;
+}
+
+section{
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid #8D8D8D;
+  margin: auto;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+#sec1 h2{
+  margin-top: 35vh;
+  font-size: 2.4rem;
+  letter-spacing: 3px;
+}
+
+#sec1 h2  span{
+  font-size: 1rem;
+}
+
+#mainTitle{
+  font-size: 1.5rem;
+}
+
+#mainLogo{
+  max-width: 12rem;
+  max-height: 12rem;
+  margin: 6rem;
+}
+
+#joinBtn{
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #8D8D8D;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  background: blue;
+}
+
+
+#sec2 h2{
+  margin-top: 35vh;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#sec2 .bigP{
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+#sec3 h2{
+  margin-top: 35vh;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+  
+  #sec3 .bigP {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  #sec3 ul{
+    border: none;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    
+  }
+
+#sec3 ul h4{
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+
+#sec4 h2{
+  margin-top: 35vh;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+  
+  #sec4 .bigP {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  #sec4 ul{
+    border: none;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+
+#sec4 ul h4{
+  font-weight: 300;
+}
+
+#sec4{
+  margin-bottom: 90px;
+  padding-bottom: 90px;
+}
+
+.midP{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+input{
+  width: 15rem;
+  padding: 10px;
+  margin: 9px;
+  border: 1px solid black;
+  text-align: left;
+  font-size: 0.9rem;
+}
+#contact{
+  padding-bottom: 8rem;
+}
+
+#contact button{
+  width: 15rem;
+  padding: 12px;
+  margin: 12px;
+  background: blue;
+  color: white;
+  font-size: 1rem;
+}
+
+footer{
+  background: linear-gradient(#FFFFFF, #E7E7E7);
+}
+
+footer .shoes ul{
+  border: none;
+}
